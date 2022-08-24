@@ -1,0 +1,98 @@
+.port{
+    padding-left: 15%;
+    .name{
+        flex: 1 0 50%;
+        max-width: 50%;
+        padding-right: 1em;
+        position: relative;
+    };
+    .name span,.email span{
+        position: absolute;
+        top:1em;
+        left: 1em;
+        line-height: 1;
+        color:$color-pink-2
+    };
+    .name input{
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: $br-1;
+        padding: 1em 1em 1em 3.5em !important;
+        font-size: .8em !important;
+        height: 3.7em;
+        width: 100%;
+    };
+    .contact{
+        background-color: rgba(255, 255, 255, 1);
+        
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 1em;
+    };
+    .email input{
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: $br-1;
+        padding: 1em 1em 1em 3.5em !important;
+        font-size: .8em !important;
+        height: 3.7em;
+        width: 100%;
+    };
+    .email{
+        flex: 1 0 50%;
+        max-width: 50%;
+        position: relative;
+    };
+    .contact_list{
+        flex: 1 0 100%;
+        max-width: 100%;
+        position: relative;
+    };
+    
+    .form-control{
+        border-radius: 50px;
+        max-width: 100%;
+        text-align: center;
+    };
+    .fa-graduation-cap{
+        padding: 10px 10px;
+        line-height: 1;
+        position: absolute;
+        color:$color-pink-2;
+    };
+    .fa-message{
+        padding: 15px 15px;
+        line-height: 1;
+        position:absolute;
+        color:$color-pink-2
+    };
+    textarea {
+        border: 1px solid rgba(0,0,0,.1);
+        padding: 1em 1em 1em 3.5em !important;
+        height: 90px;
+        line-height: 1.5;
+        font-size: .8em !important;
+        border-radius: 20px;
+    }
+    .btButtonWidgetText{
+        width: 130px;
+        height: 20px;
+    };
+    .btnPort{
+        padding-top:15px;
+    }
+    h1{
+        text-align: center;
+        padding-bottom: 30px;
+    };
+    .port_right{
+        box-shadow: 0 30px 30px -10px rgb(0 0 0 / 20%);
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 1);
+        margin-bottom: 80px;
+
+    };
+    .port_right_content{
+        background-color: rgba(255, 255, 255, 1);
+        padding: 0 15px;
+    }
+}

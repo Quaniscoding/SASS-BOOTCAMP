@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+  visibility: initial;
+  opacity: 1;
+  width: 100%;
+  position: absolute;
+}
+header .navbar-brand {
+  position: relative;
+}
+header img {
+  width: 80px;
+  height: auto;
+}
+header .navbar-nav {
+  float: right;
+}
+header .navbar-nav .nav-item {
+  padding-left: 30px;
+}
+header ul li a {
+  color: #343a40;
+  font-weight: 600;
+  line-height: 80px;
+}
+header .socical a {
+  padding-top: 30px !important;
+}
+header .nav-link {
+  transition: 0.2;
+}
+header .nav-link:hover {
+  color: #b61984;
+}
+header .contactHeader {
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 0.9em;
+}
+header .contactHeader a {
+  color: #343a40;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  display: block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.carousel .carousel_content {
+  padding-top: 60px;
+}
+.carousel .carousel-left {
+  padding-top: 150px;
+}
+.carousel .carousel-left p {
+  color: #e83e8c;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.carousel h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.carousel h1::before, .carousel h1::after {
+  clear: both;
+  content: " ";
+  line-height: 0;
+  display: table;
+  width: 100%;
+}
+
+.contact {
+  background-color: #dcd1f3;
+}
+.contact .teacher {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  gap: 30px;
+}
+.contact .person {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.contact p {
+  padding-top: 10px;
+  font-size: 0.75rem;
+  margin-bottom: 0.7em;
+  color: #b61984;
+}
+.contact h1 {
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+.contact .person_img {
+  margin: -2em;
+  display: block;
+  margin: 0;
+  line-height: 0;
+  max-width: 100%;
+  height: auto;
+}
+.contact img {
+  height: auto;
+  display: block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.contact .teacher {
+  padding-right: 15%;
+}
+.contact img:hover {
+  transition: 0.5s;
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+.contact .person {
+  border: none;
+}
+.contact .person:hover {
+  transform: translateY(20px);
+}
+
+.port {
+  padding-left: 15%;
+}
+.port .name {
+  flex: 1 0 50%;
+  max-width: 50%;
+  padding-right: 1em;
+  position: relative;
+}
+.port .name span, .port .email span {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  line-height: 1;
+  color: #b61984;
+}
+.port .name input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding: 1em 1em 1em 3.5em !important;
+  font-size: 0.8em !important;
+  height: 3.7em;
+  width: 100%;
+}
+.port .contact {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1em;
+}
+.port .email input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding: 1em 1em 1em 3.5em !important;
+  font-size: 0.8em !important;
+  height: 3.7em;
+  width: 100%;
+}
+.port .email {
+  flex: 1 0 50%;
+  max-width: 50%;
+  position: relative;
+}
+.port .contact_list {
+  flex: 1 0 100%;
+  max-width: 100%;
+  position: relative;
+}
+.port .form-control {
+  border-radius: 50px;
+  max-width: 100%;
+  text-align: center;
+}
+.port .fa-graduation-cap {
+  padding: 10px 10px;
+  line-height: 1;
+  position: absolute;
+  color: #b61984;
+}
+.port .fa-message {
+  padding: 15px 15px;
+  line-height: 1;
+  position: absolute;
+  color: #b61984;
+}
+.port textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1em 1em 1em 3.5em !important;
+  height: 90px;
+  line-height: 1.5;
+  font-size: 0.8em !important;
+  border-radius: 20px;
+}
+.port .btButtonWidgetText {
+  width: 130px;
+  height: 20px;
+}
+.port .btnPort {
+  padding-top: 15px;
+}
+.port h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.port .port_right {
+  box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 80px;
+}
+.port .port_right_content {
+  background-color: rgb(255, 255, 255);
+  padding: 0 15px;
+}
+
+.img_bottom {
+  padding-top: 200px;
+}
+.img_bottom img {
+  padding-top: 40px;
+  width: 100%;
+}
+
+.bottom {
+  padding-left: 150px;
+  color: #f8f9fa;
+}
+.bottom .d-flex {
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+.bottom span {
+  padding: 5px 5px;
+  color: #f8f9fa;
+}
+.bottom .bottom_2 a, .bottom .bottom_3 a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+.bottom .bottom_2 .bottom_2_line, .bottom .bottom_3 .bottom_2_line {
+  padding-top: 10px;
+}
+.bottom input {
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.bottom .btn_bottom {
+  padding-top: 25px;
+  text-align: center;
+}
+.bottom .btnBottomLink {
+  border-radius: 50px;
+  padding: 14px 137px;
+  overflow: hidden;
+  background: white;
+  transition: all 300ms ease;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.bottom .btnBottomLink {
+  color: #343a40;
+}
+.bottom a:hover {
+  color: white;
+  background-color: #b61984;
+  text-decoration: none;
+  border-color: white;
+}
+.bottom .bottom_1, .bottom .bottom_2, .bottom .bottom_3, .bottom .bottom_4 {
+  padding-left: 60px;
+}
+
+.img_footer img {
+  margin-right: 30px;
+  max-width: 100%;
+}
+
+.btButtonWidget {
+  font-size: 0.9rem;
+  display: inline-block;
+  line-height: 1;
+  width: auto;
+}
+
+div.btButtonWidget.btLightAccentButton a {
+  box-shadow: 0 0 0 3em #b61984 inset;
+}
+
+.btIconWidgetIcon {
+  padding-right: 0.5em;
+}
+
+div.btButtonWidget.btLightAccentButton a {
+  color: #f8f9fa;
+}
+
+div.btButtonWidget a.btButtonWidgetLink {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  overflow: hidden;
+  padding: 1.1em 1.5em;
+  margin: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  background: transparent;
+  transition: all 300ms ease;
+}
+
+.btButtonWidget a {
+  border-radius: 50px;
+}
+
+div.btButtonWidget.btLightAccentButton a:hover {
+  color: #b61984;
+  box-shadow: 0 0 0 1px #b61984 inset;
+}/*# sourceMappingURL=main.css.map */

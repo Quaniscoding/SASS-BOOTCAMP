@@ -1,0 +1,30 @@
+.carousel{
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+        user-select: none;
+    };
+    .carousel_content{
+        padding-top: $pd-5;
+    };
+    .carousel-left{
+        padding-top:150px;
+    }
+    .carousel-left p{
+        color:$color-pink-1;
+        font-size:$fs-1;
+        font-weight: $fw-1;
+    };
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    h1::before,h1::after{
+        clear: both;
+    content: ' ';
+    line-height: 0;
+    display: table;
+    width: 100%;
+    }
+}

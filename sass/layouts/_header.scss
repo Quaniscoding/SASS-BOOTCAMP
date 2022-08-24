@@ -1,0 +1,51 @@
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    visibility: initial;
+    opacity: 1;
+    width: 100%;
+    position: absolute;
+    .navbar-brand{
+        position: relative;
+    };
+    img{
+        width: 80px;
+        height: auto;
+    };
+    .navbar-nav{
+        float: right;
+        .nav-item{
+        padding-left: 30px;
+       }
+    };
+    
+    ul li a{
+        color: $color-dark;
+        font-weight: $fw-1;
+        line-height: $lh-1;
+    };
+    .socical a{
+        padding-top: $pd-2 !important;
+    };
+    .nav-link{
+        transition: 0.2;
+        &:hover{
+            color: $color-pink-2;
+        }
+    };
+    .contactHeader{
+        line-height: 38px;
+
+    display: flex;
+
+    align-items: center;
+    vertical-align: middle;
+    font-size: .9em;
+    };
+    .contactHeader a{
+        color:$color-dark;
+    }
+}
+
